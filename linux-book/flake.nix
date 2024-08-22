@@ -1,7 +1,7 @@
 # flake.nix
 
 {
-  description = "test";
+  description = "linux book";
 
   inputs =
     {
