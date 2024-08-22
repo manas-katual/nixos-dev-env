@@ -1,0 +1,6 @@
+[book]
+authors = ["manas-katual"]
+language = "en"
+multilingual = false
+src = "src"
+title = "anything"
