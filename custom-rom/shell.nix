@@ -60,9 +60,10 @@
         util-linux
         xml2
         zip
+				neovim
 
         # only necessary if you wanna use `runScript = "zsh";` below
-        zsh
+        #zsh
       ];
     multiPkgs = pkgs:
       with pkgs; [
@@ -75,7 +76,7 @@
         iconv # ??? - i put this here and by the time i went back to remove unecessary packages i forgot why
         iconv.dev # sys/types.h
       ];
-    runScript = "zsh"; # personal preference, you could set this to bash instead if you want
+    runScript = "bash"; # personal preference, you could set this to bash instead if you want
     profile = ''
       export ALLOW_NINJA_ENV=true
       export USE_CCACHE=1
